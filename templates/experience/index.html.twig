@@ -1,0 +1,115 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('assets/css/experience.css') }}">
+{% endblock %}
+{% block title %}Hello ExperienceController!{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <h1>Mes Expérience Professionnelles</h1>
+    </div>
+    <div class="container experience">
+        <div class="card  text-white bg-success mb-3" style="max-width: 20rem;">
+            <div class="card-header"><i class="fas fa-building"></i></div>
+            <div class="card-body">
+                <p class="card-text"><em>Poste:</em> Animateur</p>
+                <p class="card-text"><em>Période:</em> 2007-2012</p>
+                <p class="card-text"><em>Entreprise:</em> MJC Montalieu</p>
+            </div>
+        </div>
+        <div class="card  text-white bg-secondary mb-3" style="max-width: 20rem;">
+            <div class="card-header"><i class="fas fa-building"></i></div>
+            <div class="card-body">
+                <p class="card-text"><em>Poste:</em> Animateur</p>
+                <p class="card-text"><em>Période:</em> 2007-2012</p>
+                <p class="card-text"><em>Entreprise:</em> MJC Montalieu</p>
+            </div>
+        </div>
+        <div class="card   bg-light mb-3" style="max-width: 20rem;">
+            <div class="card-header"><i class="fas fa-building"></i></div>
+            <div class="card-body">
+                <p class="card-text"><em>Poste:</em> Animateur</p>
+                <p class="card-text"><em>Période:</em> 2007-2012</p>
+                <p class="card-text"><em>Entreprise:</em> MJC Montalieu</p>
+            </div>
+        </div>
+        <div class="card  text-white bg-info mb-3" style="max-width: 20rem;">
+            <div class="card-header"><i class="fas fa-building"></i></div>
+            <div class="card-body">
+                <p class="card-text"><em>Poste:</em> Animateur</p>
+                <p class="card-text"><em>Période:</em> 2007-2012</p>
+                <p class="card-text"><em>Entreprise:</em> MJC Montalieu</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Mes diplômes</h1>
+    </div>
+    <div class="container diplome">
+        <div class="card  text-white bg-success mb-3" style="max-width: 20rem;">
+            <div class="card-header"><i class="fas fa-graduation-cap"></i></div>
+            <div class="card-body">
+                <p class="card-text"><span>2008:</span> Baccalauréat ES</p>
+            </div>
+        </div>
+        <div class="card  text-white bg-secondary mb-3" style="max-width: 20rem;">
+            <div class="card-header"><i class="fas fa-graduation-cap"></i></div>
+            <div class="card-body">
+                <p class="card-text"><span>20012:</span> Licence professionnelle commerce international</p>
+            </div>
+        </div>
+        <div class="card   bg-light mb-3" style="max-width: 20rem;">
+            <div class="card-header"><i class="fas fa-graduation-cap"></i></div>
+            <div class="card-body">
+                <p class="card-text"><span>2020:</span> Certificat Professionnel Developper Web & Mobile -- ItAkademy</p>
+            </div>
+        </div>
+        <div class="card  text-white bg-info  mb-3" style="max-width: 20rem;">
+            <div class="card-header"><i class="fas fa-graduation-cap"></i></div>
+            <div class="card-body">
+                <p class="card-text"><span>En cours:</span> Certificat Professionnel Developper Full Stack -- ItAkademy</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Mes compétences</h1>
+    </div>
+    <div class="container skills">
+        <div class="skill">
+            <h4>Sylius</h4>
+            <div class="progress">
+
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+       <div class="skill">
+           <h4>Symfony</h4>
+           <div class="progress">
+
+               <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+           </div>
+       </div>
+        <div class="skill">
+            <h4>Vue.js/h4>
+            <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h4>OOP/PHP</h4>
+            <div class="progress">
+
+                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h4>Html/Css</h4>
+            <div class="progress">
+
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

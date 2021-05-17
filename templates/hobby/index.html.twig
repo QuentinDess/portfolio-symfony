@@ -1,0 +1,62 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('assets/css/hobby.css') }}">
+{% endblock %}
+
+{% block title %}Hello HobbyController!{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1>Mes Hobbys</h1>
+    </div>
+    <div class=" hobby">
+        <div class="card mb-3">
+            <h3 class="card-header">Jeu vidéo</h3>
+
+            <img class="rounded-circle z-depth-2" alt="100x100" src="{{ asset('assets/image/ps4.png') }}"    data-holder-rendered="true" >
+            <div class="card-body">
+                <p class="card-text">Je suis un joueur console mais aussi pc. J'aime les jeux retros plateform ainsi que les j-rpg et mmorpg</p>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>GuidWars2</li>
+                    <li>Wow</li>
+                    <li>Crash Bandicoot</li>
+                    <li>Final Fantasy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <h3 class="card-header">Jeu de société</h3>
+
+            <img class="rounded-circle z-depth-2" alt="100x100" src="{{ asset('assets/image/societe.jpeg') }}"    data-holder-rendered="true" >
+            <div class="card-body">
+                <p class="card-text">J'aime beaucoup faires des jeux de plateaux stratégique, mais aussi coopératifs, et plus détentes.</p>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>7 Wonders</li>
+                    <li>Abyss</li>
+                    <li>Jamaica</li>
+                    <li>Risk</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <h3 class="card-header">Miniatures </h3>
+
+            <img class="rounded-circle z-depth-2" alt="100x100" src="{{ asset('assets/image/miniature.jpeg') }}"    data-holder-rendered="true" >
+            <div class="card-body">
+                <p class="card-text">Je peind et monte des miniature wharhammer 40 K et sda. Lors de certaine occaison je fais quelques tournois</p>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>Seigneur des anneaux</li>
+                    <li>Wharhammer 40k</li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+{% endblock %}
